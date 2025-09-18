@@ -1,0 +1,33 @@
+{
+  "name": "srees-kamakshi-silks-functions",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "serve": "firebase emulators:start --only functions,firestore,hosting,storage",
+    "deploy": "firebase deploy --only functions",
+    "lint": "eslint --ext .ts src",
+    "start": "npm run build && firebase emulators:start --only functions",
+    "seed": "ts-node src/seed.ts"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "firebase-admin": "^12.5.0",
+    "firebase-functions": "^5.0.1",
+    "stripe": "^14.0.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.30",
+    "eslint": "^8.57.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
+
+
