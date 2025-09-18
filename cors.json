@@ -1,0 +1,8 @@
+[
+  {
+    "origin": ["https://3000-firebase-kamahshi-silks-1758215659222.cluster-zsqzu5kebnaemxbyqrvoim2lxo.cloudworkstations.dev"],
+    "method": ["GET", "HEAD", "PUT", "POST", "DELETE"],
+    "responseHeader": ["Content-Type", "Access-Control-Allow-Origin"],
+    "maxAgeSeconds": 3600
+  }
+]
